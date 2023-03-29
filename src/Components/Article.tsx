@@ -36,7 +36,7 @@ const Article = ({ title, video, audio, children }: Props) => {
             {audio ? (
               <>
                 {/* eslint-disable-next-line */}
-              <audio controls src={audio} className="mb-4" />
+              <audio controls src={"/tmac" + audio} className="mb-4" />
               </>
             ) : null}
           </div>

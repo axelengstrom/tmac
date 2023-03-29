@@ -29,8 +29,8 @@ const App = () => {
           <Typography>– Coach J</Typography>
           <Typography>
             <>
-              <a href="/fantasy.mp3">Click here</a> to download Fantasy as a mp3
-              file.
+              <a href="/tmac/fantasy.mp3">Click here</a> to download Fantasy as
+              a mp3 file.
             </>
           </Typography>
         </Article>
