@@ -17,7 +17,7 @@ const App = () => {
         />
         <Article
           title="Fantasy"
-          video="https://www.youtube.com/embed/qM4FipMtFWM"
+          video="https://www.youtube.com/embed/W7u5GMF1Xxg"
           // audio="https://knivenpr.se/wp-content/uploads/2022/08/The-Mind-Action-Conflict-Ocean-Breeze.mp3"
         >
           <Typography>
