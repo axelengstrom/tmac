@@ -22,16 +22,28 @@ const App = () => {
         >
           <Typography>
             <>
+              <i>&quot;Try to get back again - try is the best I can&quot;</i>
+              <br />
+              <br />
+              Just as this mantra from singer and project founder Elias repeats,
+              we are reminded that memories are impossible to recreate. The only
+              thing that matters is trying to make new ones.
+            </>
+          </Typography>
+          <Typography>
+            <>
               <strong>Fantasy</strong> is the third release from the band THE
               MIND ACTION CONFLICT. A song about escaping the pressure of a
-              sometimes dull reality for the simplicity of living in a
+              sometimes dull and harsh reality for the simplicity of living in a
               futuristic dream.
             </>
           </Typography>
           <Typography>
-            As the song slowly developed from a computer to a studio in a band
-            setting, so did the production. Playfulness and improvisation has
-            played a big part in both writing, arranging and producing.
+            Playfulness and improvisation has played a big part in both writing,
+            arranging and producing as this song slowly found its current shape
+            when Filip dropped by the studio when the drums were being cut. He
+            started jamming to the track on the piano and Elias quickly put up a
+            microphone to capture the vibe.
           </Typography>
           <a
             href="https://share.amuse.io/track/the-mind-action-conflict-fantasy"

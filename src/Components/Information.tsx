@@ -9,21 +9,27 @@ const Information = () => {
       <Typography variant="h2">Biography</Typography>
       <Typography>
         THE MIND ACTION CONFLICT is born out of the urge to leave the mind for
-        actions. When the projects founder Elias became a dad in 2018 he
-        realised that the time and timing to proceed the dream to write and
-        record music within a band would never come until he made it happen.
+        actions. Singer and founder of the band Elias has a long love story with
+        Cuba. Naturally introduced to the island by the mother of his child 7
+        years ago, Elias formed a strong bond to its people and their outlook on
+        life. It became a new home away from home.
       </Typography>
-
       <Typography>
-        After spending off-time experimenting with sounds, recording and
-        production he slowly found the the core DNA of the embryo he wished turn
-        into a band. A sound with a strong feel of ”larger than life”.
+        In Santa Clara’s inclusive atmosphere, with its typical Social Clubs and
+        spontaneous jam sessions by local musicians, Elias identified a personal
+        longing to dig deep from within and create something new and honest. The
+        eclectic fusion between Scandinavian rock traditions and the Caribbean
+        collectivistic musical atmosphere ended up founding THE MIND ACTION
+        CONFLICT.
       </Typography>
       <Typography>
         <>
-          As much as the name the project is about leaving the identity of
-          thoughts for movement of actions. A theme that is recurring in both
-          mood and lyrics of the new single <i>”Fantasy”(14th April).</i>
+          After experimenting with sounds, recording and producing, Elias slowly
+          found the core he wished to turn into a band. A sound with a
+          larger-than-life-feel. And just like the name, this project is about
+          leaving the identity of thoughts for movement of actions. A theme that
+          is recurring in both mood and lyrics of the new single{" "}
+          <i>”Fantasy”(14th April).</i>
         </>
       </Typography>
       <Typography />
