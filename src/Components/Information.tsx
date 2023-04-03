@@ -3,28 +3,32 @@ import Typography from "./Typography";
 
 const Information = () => {
   return (
-    <div className="bg-gradient-to-b from-zinc-900 to-emerald-900/10">
-      <Container>
-        <Typography variant="h2">Information</Typography>
-        <Typography>
-          On August 18, THE MIND ACTION CONFLICT debuts with the surfing song
-          “Ocean breeze”. A song born out of experimenting with a piamino and a
-          LinnDrum.
-        </Typography>
-        <Typography>
-          THE MIND ACTION CONFLICT is a band molded by the will of doing
-          whatever comes to mind and letting it take time. “Ocean breeze” is a
-          track about feeling connected with the ocean. Your own moments of
-          shared silence and the power they possess.
-        </Typography>
-        <Typography>
-          THE MIND ACTION CONFLICT consists of Elias Lorenzo on vocals and
-          guitar, Q (Josef Ask) on drums, Timo Krantz on piano, and Coach J
-          (Axel Engström) on bass guitar. The music video is shot in the fishing
-          town Caibarién, Cuba.
-        </Typography>
-      </Container>
-    </div>
+    // <div className="bg-gradient-to-b from-zinc-900 to-emerald-900/10">
+    //   <Container>
+    <>
+      <Typography variant="h2">Biography</Typography>
+      <Typography>
+        THE MIND ACTION CONFLICT is born out of the urge to leave the mind for
+        actions. When the projects founder Elias became a dad in 2018 he
+        realised that the time and timing to proceed the dream to write and
+        record music within a band would never come until he made it happen.
+      </Typography>
+
+      <Typography>
+        After spending off-time experimenting with sounds, recording and
+        production he slowly found the the core DNA of the embryo he wished turn
+        into a band. A sound with a strong feel of ”larger than life”.
+      </Typography>
+      <Typography>
+        <>
+          As much as the name the project is about leaving the identity of
+          thoughts for movement of actions. A theme that is recurring in both
+          mood and lyrics of the new single <i>”Fantasy”(14th April).</i>
+        </>
+      </Typography>
+    </>
+    // </Container>
+    // </div>
   );
 };
 

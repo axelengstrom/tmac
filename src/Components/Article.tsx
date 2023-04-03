@@ -10,7 +10,7 @@ interface Props extends Component {
 
 const Article = ({ title, video, audio, children }: Props) => {
   const articleStyles = [
-    "odd:bg-gradient-to-b from-cyan-900/10 to-zinc-900 even:bg-gradient-to-t from-cyan-600 to-blue-500",
+    "odd:bg-gradient-to-b from-cyan-900/10 to-zinc-900",
   ].join(" ");
 
   const gridStyles = [

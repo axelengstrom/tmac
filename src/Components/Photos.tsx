@@ -72,26 +72,28 @@ const photos: Photo[] = [
 
 const Photos = () => {
   return (
-    <div className="bg-gradient-to-b from-emerald-900/10 to-zinc-900">
-      <Container>
-        <Typography variant="h2">Photos</Typography>
-        <div className="relative">
-          <div className="columns-3xs gap-8 space-y-8">
-            {photos.map(({ alt, src, href }, index) => (
-              <div className="relative" key={href + index}>
-                <a href={"/tmac/images" + href}>
-                  <img
-                    className="rounded w-full"
-                    alt={alt}
-                    src={"/tmac/images" + src}
-                  />
-                </a>
-              </div>
-            ))}
-          </div>
+    // <div className="bg-gradient-to-b from-emerald-900/10 to-zinc-900">
+    //   <Container>
+    <>
+      <Typography variant="h2">Photos</Typography>
+      <div className="relative">
+        <div className="columns-2 md:columns-3 gap-8 space-y-8">
+          {photos.map(({ alt, src, href }, index) => (
+            <div className="relative" key={href + index}>
+              <a href={"/tmac/images" + href}>
+                <img
+                  className="rounded w-full"
+                  alt={alt}
+                  src={"/tmac/images" + src}
+                />
+              </a>
+            </div>
+          ))}
         </div>
-      </Container>
-    </div>
+      </div>
+    </>
+    //   </Container>
+    // </div>
   );
 };
 
