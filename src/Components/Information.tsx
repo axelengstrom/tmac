@@ -26,6 +26,22 @@ const Information = () => {
           mood and lyrics of the new single <i>”Fantasy”(14th April).</i>
         </>
       </Typography>
+      <Typography />
+      <Typography variant="h3">Fantasy production cred</Typography>
+      <Typography>
+        <>
+          Elias Lorenzo - Lyrics, vocals, guitars, synth, recording and
+          production
+          <br />
+          Josef Ask - Drums, pads and co-producer <br />
+          Coach Johnson - Bass <br />
+          Filip Magnusson - Piano <br />
+          <br />
+          Alexander Eldefors/Fonomonik - Mix <br />
+          Magnus Lindberg - Master
+          <br />
+        </>
+      </Typography>
     </>
     // </Container>
     // </div>

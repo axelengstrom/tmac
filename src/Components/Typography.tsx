@@ -1,7 +1,7 @@
 import { Component } from "../Types/common";
 
 interface Props extends Component {
-  variant?: "h1" | "h2" | "logo";
+  variant?: "h1" | "h2" | "h3" | "logo";
   inverted?: boolean;
 }
 
@@ -23,6 +23,16 @@ const Typography = ({ variant, children, inverted }: Props) => {
       <h2
         className={
           color + " font-dinBold text-2xl font-extrabold sm:text-3xl mb-6"
+        }
+      >
+        {children}
+      </h2>
+    );
+  if (variant === "h3")
+    return (
+      <h2
+        className={
+          color + " font-dinBold text-1xl font-extrabold sm:text-2xl mb-6"
         }
       >
         {children}

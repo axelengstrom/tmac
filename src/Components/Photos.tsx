@@ -77,7 +77,7 @@ const Photos = () => {
     <>
       <Typography variant="h2">Photos</Typography>
       <div className="relative">
-        <div className="columns-2 md:columns-3 gap-8 space-y-8">
+        <div className="columns-2 md:columns-2 gap-8 space-y-8">
           {photos.map(({ alt, src, href }, index) => (
             <div className="relative" key={href + index}>
               <a href={"/tmac/images" + href}>
