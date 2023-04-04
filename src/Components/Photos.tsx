@@ -80,11 +80,11 @@ const Photos = () => {
         <div className="columns-2 md:columns-2 gap-8 space-y-8">
           {photos.map(({ alt, src, href }, index) => (
             <div className="relative" key={href + index}>
-              <a href={"/tmac/images" + href}>
+              <a href={"/images" + href}>
                 <img
                   className="rounded w-full"
                   alt={alt}
-                  src={"/tmac/images" + src}
+                  src={"/images" + src}
                 />
               </a>
             </div>
